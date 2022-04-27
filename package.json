@@ -1,0 +1,28 @@
+{
+    "name": "accordion",
+    "version": "1.0.0",
+    "description": "Accordions are useful when you want to toggle between hiding and showing large amount of content.",
+    "author": "eglador",
+    "license": "MIT",
+    "main": "dist/js/index.js",
+    "style": "dist/css/index.css",
+    "script": "dist/script/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eglador/accordion.git"
+    },
+    "keywords": [
+        "accordion",
+        "javascript"
+    ],
+    "bugs": {
+        "url": "https://github.com/eglador/accordion/issues"
+    },
+    "homepage": "https://github.com/eglador/accordion#readme",
+    "devDependencies": {
+        "eslint": "^8.14.0"
+    }
+}
