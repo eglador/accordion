@@ -8,6 +8,8 @@
     "style": "dist/css/index.css",
     "script": "dist/script/index.js",
     "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch --config webpack.config.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -23,6 +25,13 @@
     },
     "homepage": "https://github.com/eglador/accordion#readme",
     "devDependencies": {
-        "eslint": "^8.14.0"
+        "eslint": "^8.14.0",
+        "tailwindcss": "^3.0.24",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "css-loader": "^6.7.1",
+        "mini-css-extract-plugin": "^2.6.0",
+        "postcss": "^8.4.12",
+        "postcss-loader": "^6.2.1"
     }
 }
